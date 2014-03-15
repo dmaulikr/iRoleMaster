@@ -58,6 +58,12 @@ enum  {
     LOCALE_BURIAL_GROUND,
     LOCALE_RUINS
     };
+/*
+ * A herb or animal that inherit LOCATE_PLAIN implies LOCATE_SHORT_GRASS and LOCATE_TALL_GRASS as well
+ *
+ * A locale that is LOCATE_PLAIN will also accept animals and herbs of LOCATE_SHORT_GRASS and LOCATE_TALL_GRASS
+ *
+ */
 
 @interface iRMTerrain : NSObject
 
