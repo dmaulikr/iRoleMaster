@@ -9,6 +9,7 @@
 
 #import "iRMHex.h"
 #import "iRMTerrain.h"
+#import "iRMLocation.h"
 
 @implementation iRMHex
 
