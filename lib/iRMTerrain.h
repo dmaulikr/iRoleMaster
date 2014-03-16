@@ -67,6 +67,15 @@ enum  {
 
 @interface iRMTerrain : NSObject
 
+@property NSString *climaCode;
+@property NSString *localeCode;
+
 - (id) init;
+
+- (NSString *) queryLocale;
+- (NSString *) queryClimate;
+
+- (BOOL) localeHasType: (char) localeType;
+- (BOOL) clomateHasType: (char) climateType;
 
 @end
