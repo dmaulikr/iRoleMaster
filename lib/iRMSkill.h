@@ -18,7 +18,8 @@
 @property NSArray *skillStats; // Optional rule, up to 3 stats
 //@property iRMSkillCategory *skillCategory;
 @property NSString *skillNote;
-@property BOOL *skillSPecialible;
+@property BOOL *skillSpecialible;
 @property NSString *skillSpecialty;
+@property NSNumber *skillRanks; // Number of ranks
 
 @end

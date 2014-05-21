@@ -76,6 +76,6 @@ enum  {
 - (NSString *) queryClimate;
 
 - (BOOL) localeHasType: (char) localeType;
-- (BOOL) clomateHasType: (char) climateType;
+- (BOOL) climateHasType: (char) climateType;
 
 @end
