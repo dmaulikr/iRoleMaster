@@ -12,6 +12,7 @@
 #import "iRMHandout.h"
 #import "iRMLog.h"
 #import "iRMCharacter.h"
+#import "iRMJournalEntry.h"
 
 @implementation iRMJournal
 
@@ -39,6 +40,13 @@
     newLog.logCharacter = _journalOwner;
     newLog.logDescription = [[NSString alloc] initWithFormat:@"%@ given a handout: %@", [newLog.logCharacter characterName], [handout handoutTitle]];
     
+}
+- (void) addEntry:(iRMJournalEntry *)entry
+{
+    [_journalEntry addObject:entry];
+    iRMLog *newLog = [[iRMLog alloc] init];
+    newLog.logCharacter = _journalOwner;
+    newLog.logDescription = [[NSString alloc] initWithFormat:@"%@ adds a journal entry.", [newLog.logCharacter characterName]];
 }
 
 @end

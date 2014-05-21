@@ -17,4 +17,7 @@
 @property NSNumber *armorMaximumManeuverModifier;
 @property NSNumber *armorQuicknessPenalty;
 
+- (id)initWithAT:(NSNumber *)at;
+- (void)setArmorProperties:(NSNumber *)at and:(NSNumber *)missilePen and:(NSNumber *)minManeuver and:(NSNumber *)maxManeuver and:(NSNumber *)quPen;
+
 @end

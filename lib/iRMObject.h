@@ -14,5 +14,9 @@
 @interface iRMObject : NSObject
 
 @property NSString *objectName;
+@property NSString *objectDescription;
+
+- (void) setName:(NSString *)name;
+- (void) setDescription:(NSString *)description;
 
 @end
