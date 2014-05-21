@@ -15,8 +15,7 @@
 
 @property NSString *objectName;
 @property NSString *objectDescription;
-
-- (void) setName:(NSString *)name;
-- (void) setDescription:(NSString *)description;
+@property NSNumber *objectWeight;
+@property NSNumber *objectValue;
 
 @end
