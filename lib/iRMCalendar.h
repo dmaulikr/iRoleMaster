@@ -13,6 +13,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface iRMCalendar : NSObject //<NSCalendar>
+//@interface iRMCalendar : NSObject //<NSCalendar>
+@interface iRMCalendar : NSCalendar
 
 @end
