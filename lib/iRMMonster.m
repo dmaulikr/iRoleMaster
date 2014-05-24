@@ -5,8 +5,6 @@
  *  Created by Aun Johnsen on 07.02.14.
  *  Copyright (c) 2014 Aun Johnsen. All rights reserved.
  *
- * This is the standard monsters, beasts and animals
- *
  */
 
 #import "iRMMonster.h"

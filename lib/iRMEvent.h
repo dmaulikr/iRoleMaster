@@ -16,17 +16,17 @@
 
 @interface iRMEvent : NSObject
 
-@property NSDate *eventDate;
-@property NSMutableSet *eventPersons;
-@property NSMutableSet *eventLocations;
-@property NSMutableSet *eventItems;
-@property (nonatomic) NSString *eventTitle;
-@property NSMutableString *eventDescription;
+@property NSDate *eventStartDate; // Mandatory
+@property NSDate *eventEndDate; // If the event have timespan (e.g. a war)
+@property NSMutableSet *eventPersons; // List of persons affected or mentioned
+@property NSMutableSet *eventLocations; // List of locations affected or mentioned
+@property NSMutableSet *eventItems; // list of items affected or mentioned
+@property (nonatomic) NSString *eventTitle; // Title for searching and visualization
+@property NSMutableString *eventDescription; // A description in words - lore knowledge
 
 - (void) addEventPerson:(iRMLiving *)person;
 - (void) addEventPersonFromString:(NSString *)person;
 - (void) addLocation:(iRMLocation *)location;
 - (void) addItem:(iRMObject *)item;
 
-- (void) setEventTitle:(NSString *)eventTitle;
 @end

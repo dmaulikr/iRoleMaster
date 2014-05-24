@@ -16,14 +16,13 @@
 
 @interface iRMHandout : NSObject
 
-@property NSMutableSet *handoutPersons;
-@property NSMutableSet *handoutLocations;
-@property NSMutableSet *handoutItems;
+@property NSMutableSet *handoutPersons; // list of persons affected/mentioned
+@property NSMutableSet *handoutLocations; // list of locations affected/mentioned
+@property NSMutableSet *handoutItems; // list of items affected/mentioned
 
 @property NSString *handoutTitle;
 @property NSMutableString *handoutDescription;
-
-- (void) setTitle:(NSString *)title;
+@property NSMutableString *handoutGMNote; // only visible to GM, and editable
 
 - (void) addPerson:(iRMLiving *)person;
 - (void) addPersonFromString:(NSString *)person;
@@ -33,5 +32,6 @@
 - (void) addItem:(iRMObject *)item;
 
 - (void) updateDescription:(NSString *)desc;
+- (void) updateGMNote:(NSString *)note;
 
 @end

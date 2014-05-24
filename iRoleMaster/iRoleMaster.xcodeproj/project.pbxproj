@@ -14,6 +14,7 @@
 		205E149818A55F4500B81323 /* iRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 205E149718A55F4500B81323 /* iRMAppDelegate.m */; };
 		205E149B18A55F4500B81323 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 205E149918A55F4500B81323 /* MainMenu.xib */; };
 		205E149E18A55F4500B81323 /* iRoleMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 205E149C18A55F4500B81323 /* iRoleMaster.xcdatamodeld */; };
+		20A850C01930155900B8FF24 /* iRMSkillCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A850BF1930155900B8FF24 /* iRMSkillCategory.m */; };
 		20CD8B4118AC283000244B23 /* iRMCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B1E18AC283000244B23 /* iRMCalendar.m */; };
 		20CD8B4218AC283000244B23 /* iRMCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B2018AC283000244B23 /* iRMCampaign.m */; };
 		20CD8B4318AC283000244B23 /* iRMCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B2218AC283000244B23 /* iRMCharacter.m */; };
@@ -52,6 +53,8 @@
 		205E149A18A55F4500B81323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		205E149D18A55F4500B81323 /* iRoleMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRoleMaster.xcdatamodel; sourceTree = "<group>"; };
 		205E14A618A55F4500B81323 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		20A850BE1930155900B8FF24 /* iRMSkillCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMSkillCategory.h; sourceTree = "<group>"; };
+		20A850BF1930155900B8FF24 /* iRMSkillCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMSkillCategory.m; sourceTree = "<group>"; };
 		20CD8B1D18AC283000244B23 /* iRMCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMCalendar.h; sourceTree = "<group>"; };
 		20CD8B1E18AC283000244B23 /* iRMCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMCalendar.m; sourceTree = "<group>"; };
 		20CD8B1F18AC283000244B23 /* iRMCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMCampaign.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				20CD8B3018AC283000244B23 /* iRMLocation.m */,
 				20CD8B3918AC283000244B23 /* iRMSkill.h */,
 				20CD8B3A18AC283000244B23 /* iRMSkill.m */,
+				20A850BE1930155900B8FF24 /* iRMSkillCategory.h */,
+				20A850BF1930155900B8FF24 /* iRMSkillCategory.m */,
 				20CD8B3B18AC283000244B23 /* iRMStat.h */,
 				20CD8B3C18AC283000244B23 /* iRMStat.m */,
 				20CD8B3D18AC283000244B23 /* iRMTerrain.h */,
@@ -312,6 +317,7 @@
 				20CD8B5218AC283000244B23 /* iRMTimeline.m in Sources */,
 				20CD8B4518AC283000244B23 /* iRMHandout.m in Sources */,
 				20CD8B4618AC283000244B23 /* iRMHex.m in Sources */,
+				20A850C01930155900B8FF24 /* iRMSkillCategory.m in Sources */,
 				20CD8B4318AC283000244B23 /* iRMCharacter.m in Sources */,
 				205E149E18A55F4500B81323 /* iRoleMaster.xcdatamodeld in Sources */,
 				20CD8B4A18AC283000244B23 /* iRMLocation.m in Sources */,

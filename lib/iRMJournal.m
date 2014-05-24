@@ -25,7 +25,7 @@
     }
     return self;
 }
-
+/*
 - (void) addEvent:(iRMEvent *)event
 {
     [_journalEvents addObject:event];
@@ -40,7 +40,7 @@
     newLog.logCharacter = _journalOwner;
     newLog.logDescription = [[NSString alloc] initWithFormat:@"%@ given a handout: %@", [newLog.logCharacter characterName], [handout handoutTitle]];
     
-}
+} */
 - (void) addEntry:(iRMJournalEntry *)entry
 {
     [_journalEntry addObject:entry];

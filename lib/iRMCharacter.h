@@ -23,9 +23,9 @@
 
 @property NSString *characterName;
 @property NSString *characterCulture; // Adolescence training, etc
-@property NSString *characterProfession;
-@property NSArray *characterTrainingPackages;
-@property NSNumber *characterRealmOfPower;
+@property NSString *characterProfession; // Skill progress
+@property NSArray *characterTrainingPackages; // Jobs, hobbies, education, etc
+@property NSNumber *characterRealmOfPower; // Spell abilities
 
 @property NSString *characterSkinTone;
 @property NSString *characterHairColor;
@@ -44,7 +44,11 @@
 @property NSMutableArray *characterChildren;
 @property NSMutableString *characterOther;
 
-@property NSNumber *characterExperience;
+@property NSNumber *characterExperience; // accumulated experience points
+
+@property NSNumber *charecterHits; // accumulated damage (current hits = max hits - accumulated damage)
+@property NSNumber *characterExhaust;
+@property NSNumber *characterPowerPoints;
 
 @property NSNumber *characterDing; // True when need attention to level up actions, default False
 

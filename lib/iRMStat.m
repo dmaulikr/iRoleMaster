@@ -5,8 +5,6 @@
  *  Created by Aun Johnsen on 07.02.14.
  *  Copyright (c) 2014 Aun Johnsen. All rights reserved.
  *
- * The Stats represents 10 basic abilities present in all living beings. The stats is basis for many of the calculations, such as exhaustion points, base movement, etc.
- *
  */
 
 #import "iRMStat.h"

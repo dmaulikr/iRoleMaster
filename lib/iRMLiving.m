@@ -5,8 +5,6 @@
  *  Created by Aun Johnsen on 07.02.14.
  *  Copyright (c) 2014 Aun Johnsen. All rights reserved.
  *
- * The base file in all living, wether a monster, beast, animal, NPC, player character, or even in mechanical and artificial lifeforms such as golems, constructs, robots, androids, etc.
- *
  */
 
 #import "iRMLiving.h"

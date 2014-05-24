@@ -5,8 +5,6 @@
  *  Created by Aun Johnsen on 12.02.14.
  *  Copyright (c) 2014 Aun Johnsen. All rights reserved.
  *
- * Handouts are undated information disclosed to players. A GM should be able to pre-generate handouts while planning a champaign as well as creating them on the fly. A player should be able to append notes to a handout. The GM should be able to see a players notes, and append information as GM addendum, while other players should not have access to this.
- *
  */
 
 #import "iRMHandout.h"
@@ -58,6 +56,10 @@
 - (void) updateDescription:(NSString *)desc
 {
     _handoutDescription = [NSMutableString stringWithString:desc];
+}
+- (void) updateGMNote:(NSString *)note
+{
+    _handoutGMNote = [NSMutableString stringWithString:note];
 }
 
 @end

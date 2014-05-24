@@ -5,7 +5,6 @@
  *  Created by Aun Johnsen on 12.02.14.
  *  Copyright (c) 2014 Aun Johnsen. All rights reserved.
  *
- *
  */
 
 #import "iRMLog.h"

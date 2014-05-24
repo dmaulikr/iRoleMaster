@@ -10,6 +10,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "iRMSkillCategory.h"
 
 @interface iRMSkill : NSObject
 

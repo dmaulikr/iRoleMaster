@@ -18,13 +18,13 @@
 
 @interface iRMJournal : NSObject
 
-@property NSMutableSet *journalEvents;
-@property NSMutableSet *journalHandouts;
+//@property NSMutableSet *journalEvents;
+//@property NSMutableSet *journalHandouts;
 @property NSMutableSet *journalEntry;
 @property (retain) iRMCharacter *journalOwner;
 
-- (void) addEvent:(iRMEvent *)event;
-- (void) addHandout:(iRMHandout *)handout;
+//- (void) addEvent:(iRMEvent *)event;
+//- (void) addHandout:(iRMHandout *)handout;
 - (void) addEntry:(iRMJournalEntry *)entry;
 
 @end

@@ -5,8 +5,6 @@
  *  Created by Aun Johnsen on 09.02.14.
  *  Copyright (c) 2014 Aun Johnsen. All rights reserved.
  *
- * The character object includes all information in the character sheet. It inherits iRMLiving, so that all living objects have the same base.
- *
  */
 
 #import "iRMCharacter.h"
@@ -42,7 +40,10 @@
     if (experienceLevel > currentLevel) {
         _characterDing = @YES;
         // Create log text
-        NSLog(@"DING: %@(%d) level ready to advance level to %d", _characterName, currentLevel, experienceLevel);
+        NSLog(@"DING: %@(%d) level ready to advance level to %d.", _characterName, currentLevel, experienceLevel);
+        iRMLog *newLog = [[iRMLog alloc] init];
+        newLog.logCharacter = [self copy];
+        newLog.logDescription = [[NSString alloc] initWithFormat:@"DING: %@(%d) ready to advance level to %d.", _characterName, currentLevel, experienceLevel];
         return YES;
     }
     return NO;
