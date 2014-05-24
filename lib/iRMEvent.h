@@ -23,6 +23,7 @@
 @property NSMutableSet *eventItems; // list of items affected or mentioned
 @property (nonatomic) NSString *eventTitle; // Title for searching and visualization
 @property NSMutableString *eventDescription; // A description in words - lore knowledge
+@property NSMutableString *eventGMNote; // GM notes on a particular event
 
 - (void) addEventPerson:(iRMLiving *)person;
 - (void) addEventPersonFromString:(NSString *)person;

@@ -25,7 +25,7 @@ enum {
  * List of variables common to all living objects
  */
 @property NSArray *livingStats;
-@property NSMutableSet *livingSkills;
+@property NSMutableSet *livingSkills; // stores both skills and skillCats
 @property NSSet *livingTalents;
 @property NSSet *livingFlaws;
 @property NSString *livingRace;
@@ -36,11 +36,26 @@ enum {
 @property NSNumber *livingAppearance;
 @property NSNumber *livingWeight;
 @property NSNumber *livingHeight;
+
+@property NSNumber *livingHits; // accumulated damage (current hits = max hits (skill) - accumulated damage)
+@property NSNumber *livingExhaust; // spent exhaustion (current exh = max exh (formula) - spent exh)
+@property NSNumber *livingPowerPoints; // spent pp (current pp = max pp (skill) - spent pp)
+@property NSNumber *livingStun; // Is stunned for #rounds
+/*
+ * Special Case variables
+ */
+@property NSNumber *livingCorruption;
+@property NSNumber *livingTaint;
+
 /*
  * Declaring initializers
  */
 - (id) init;
 
 - (NSString *) getGenderString;
+- (BOOL) isStunned;
+- (void) addStun:(NSNumber *)rounds;
+- (void) removeStun:(NSNumber *)rounds;
+- (void) doDie;
 
 @end

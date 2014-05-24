@@ -22,5 +22,8 @@
 @property BOOL *skillSpecialible;
 @property NSString *skillSpecialty;
 @property NSNumber *skillRanks; // Number of ranks
+@property NSNumber *skillNewRanks; // New ranks to train, this is to pre-calculate on level up, and can be used throughout the game to plan skills for next level up
+@property NSNumber *skillSpecialSoft; // Temporary, short term or item dependent bonuses (spell effect, magic equipment, etc)
+@property NSNumber *skillSpecialHard; // Long term bonuses (talents, etc)
 
 @end

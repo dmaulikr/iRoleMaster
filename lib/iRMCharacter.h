@@ -46,9 +46,7 @@
 
 @property NSNumber *characterExperience; // accumulated experience points
 
-@property NSNumber *charecterHits; // accumulated damage (current hits = max hits - accumulated damage)
-@property NSNumber *characterExhaust;
-@property NSNumber *characterPowerPoints;
+@property NSNumber *characterLuck;
 
 @property NSNumber *characterDing; // True when need attention to level up actions, default False
 

@@ -16,4 +16,6 @@
 //@interface iRMCalendar : NSObject //<NSCalendar>
 @interface iRMCalendar : NSCalendar
 
+- (NSDate *) getGameDate;
+
 @end

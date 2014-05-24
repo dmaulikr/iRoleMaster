@@ -36,7 +36,19 @@
     }
     int currentLevel = [super.livingLevel intValue];
     int experienceLevel = 0;
+    int currentExperience = [_characterExperience intValue];
     // formula for experienceLevel;
+    if (currentExperience < 50000) {
+        experienceLevel = currentExperience / 10000;
+    } else if (currentExperience < 250000) {
+        experienceLevel = ((currentExperience - 50000) / 20000) + 5;
+    } else if (currentExperience < 500000) {
+        experienceLevel = ((currentExperience - 250000) / 30000) + 10;
+    } else if (currentExperience < 750000) {
+        experienceLevel = ((currentExperience - 500000) / 40000) + 15;
+    } else {
+        experienceLevel = ((currentExperience - 750000) / 50000) + 20;
+    }
     if (experienceLevel > currentLevel) {
         _characterDing = @YES;
         // Create log text

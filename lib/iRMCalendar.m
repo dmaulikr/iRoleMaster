@@ -21,4 +21,10 @@
     return self;
 }
 
+- (NSDate *) getGameDate
+{
+    /* Need to create a code that generates a date object based on the 'now' time in the game */
+    return [NSDate date];
+}
+
 @end

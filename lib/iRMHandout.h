@@ -20,8 +20,8 @@
 @property NSMutableSet *handoutLocations; // list of locations affected/mentioned
 @property NSMutableSet *handoutItems; // list of items affected/mentioned
 
-@property NSString *handoutTitle;
-@property NSMutableString *handoutDescription;
+@property NSString *handoutTitle; // public title
+@property NSMutableString *handoutDescription; // public description
 @property NSMutableString *handoutGMNote; // only visible to GM, and editable
 
 - (void) addPerson:(iRMLiving *)person;

@@ -9,6 +9,7 @@
 
 #import "iRMLog.h"
 #import "iRMCharacter.h"
+#import "iRMCalendar.h"
 
 @implementation iRMLog
 
@@ -18,6 +19,7 @@
     
     if (self) {
         _logRealDate = [NSDate date];
+//        _logGameDate = [iRMCalendar getGameDate]; // Get the 'now' time in the game
     }
     return self;
 }
