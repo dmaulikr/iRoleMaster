@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7C09FC24-3253-4CB5-9578-57F9075DAAE9</string>
+	<string>05AE6301-57D3-466D-96AA-F7B53B23B425</string>
 	<key>IDESourceControlProjectName</key>
 	<string>iRoleMaster</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -18,7 +18,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8C56C993-4E71-47B1-8BFA-C01C966942B1</key>
-		<string>../iRoleMaster</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Skippern/iRoleMaster.git</string>
@@ -28,14 +28,6 @@
 	<string>8C56C993-4E71-47B1-8BFA-C01C966942B1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8C56C993-4E71-47B1-8BFA-C01C966942B1</string>
-			<key>IDESourceControlWCCName</key>
-			<string>iRoleMaster</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
