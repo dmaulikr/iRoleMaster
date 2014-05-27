@@ -3,12 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "dice.png"
+      "filename" : "d10-1.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "dice-1.png"
+      "filename" : "d10.png"
     }
   ],
   "info" : {

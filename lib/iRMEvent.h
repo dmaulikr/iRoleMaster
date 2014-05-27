@@ -16,7 +16,7 @@
 
 @interface iRMEvent : NSObject
 
-@property NSDate *eventStartDate; // Mandatory
+@property NSDate *eventStartDate; // Mandatory (gametime)
 @property NSDate *eventEndDate; // If the event have timespan (e.g. a war)
 @property NSMutableSet *eventPersons; // List of persons affected or mentioned
 @property NSMutableSet *eventLocations; // List of locations affected or mentioned

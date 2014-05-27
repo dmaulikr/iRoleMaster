@@ -3,12 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "d20-1.png"
+      "filename" : "d6-1.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "d20.png"
+      "filename" : "d6.png"
     }
   ],
   "info" : {
