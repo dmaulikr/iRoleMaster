@@ -13,6 +13,7 @@
 #import "iRMLiving.h"
 #import "iRMLocation.h"
 #import "iRMObject.h"
+#import "iRMSkill.h"
 
 @interface iRMEvent : NSObject
 
@@ -24,9 +25,10 @@
 @property (nonatomic) NSString *eventTitle; // Title for searching and visualization
 @property NSMutableString *eventDescription; // A description in words - lore knowledge
 @property NSMutableString *eventGMNote; // GM notes on a particular event
+@property iRMSkill *eventLoreSkill; // Lore skill
 
-- (void) addEventPerson:(iRMLiving *)person;
-- (void) addEventPersonFromString:(NSString *)person;
+- (void) addPerson:(iRMLiving *)person;
+- (void) addPersonFromString:(NSString *)person;
 - (void) addLocation:(iRMLocation *)location;
 - (void) addItem:(iRMObject *)item;
 

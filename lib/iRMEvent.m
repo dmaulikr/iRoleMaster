@@ -29,11 +29,11 @@
     iRMLog *newLog = [[iRMLog alloc] init];
     newLog.logDescription = [[NSString alloc] initWithFormat:@"Event created with title: %@", eventTitle];
 }
-- (void) addEventPerson:(iRMLiving *)person
+- (void) addPerson:(iRMLiving *)person
 {
     [_eventPersons addObject:person];
 }
-- (void) addEventPersonFromString:(NSString *)person
+- (void) addPersonFromString:(NSString *)person
 {
     [_eventPersons addObject:person];
 }
