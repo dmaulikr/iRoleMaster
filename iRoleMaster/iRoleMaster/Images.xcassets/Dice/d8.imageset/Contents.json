@@ -12,6 +12,10 @@
       "idiom" : "universal",
       "scale" : "2x",
       "filename" : "d8.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

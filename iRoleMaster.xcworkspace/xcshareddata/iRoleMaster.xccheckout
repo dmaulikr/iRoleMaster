@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>05AE6301-57D3-466D-96AA-F7B53B23B425</string>
+	<string>1D81BBDB-F019-43EF-B5D8-60240CCBE80A</string>
 	<key>IDESourceControlProjectName</key>
 	<string>iRoleMaster</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8C56C993-4E71-47B1-8BFA-C01C966942B1</key>
+		<key>4720F764EDB41E67A5027670C957A6DBB368D553</key>
 		<string>https://github.com/Skippern/iRoleMaster.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iRoleMaster.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8C56C993-4E71-47B1-8BFA-C01C966942B1</key>
+		<key>4720F764EDB41E67A5027670C957A6DBB368D553</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Skippern/iRoleMaster.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8C56C993-4E71-47B1-8BFA-C01C966942B1</string>
+	<string>4720F764EDB41E67A5027670C957A6DBB368D553</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8C56C993-4E71-47B1-8BFA-C01C966942B1</string>
+			<string>4720F764EDB41E67A5027670C957A6DBB368D553</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iRoleMaster</string>
 		</dict>
