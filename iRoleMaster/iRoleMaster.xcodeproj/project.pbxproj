@@ -18,7 +18,6 @@
 		2095689819993813006AD036 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2095689619993813006AD036 /* Quartz.framework */; };
 		2095689919993813006AD036 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2095689719993813006AD036 /* SpriteKit.framework */; };
 		20A850C01930155900B8FF24 /* iRMSkillCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A850BF1930155900B8FF24 /* iRMSkillCategory.m */; };
-		20BE101519989FC1000016B5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20BE101419989FC1000016B5 /* Settings.bundle */; };
 		20CD8B4118AC283000244B23 /* iRMCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B1E18AC283000244B23 /* iRMCalendar.m */; };
 		20CD8B4218AC283000244B23 /* iRMCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B2018AC283000244B23 /* iRMCampaign.m */; };
 		20CD8B4318AC283000244B23 /* iRMCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B2218AC283000244B23 /* iRMCharacter.m */; };
@@ -63,7 +62,6 @@
 		2095689719993813006AD036 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		20A850BE1930155900B8FF24 /* iRMSkillCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMSkillCategory.h; sourceTree = "<group>"; };
 		20A850BF1930155900B8FF24 /* iRMSkillCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMSkillCategory.m; sourceTree = "<group>"; };
-		20BE101419989FC1000016B5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		20CD8B1D18AC283000244B23 /* iRMCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMCalendar.h; sourceTree = "<group>"; };
 		20CD8B1E18AC283000244B23 /* iRMCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMCalendar.m; sourceTree = "<group>"; };
 		20CD8B1F18AC283000244B23 /* iRMCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMCampaign.h; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 		205E148A18A55F4500B81323 /* iRoleMaster */ = {
 			isa = PBXGroup;
 			children = (
-				20BE101419989FC1000016B5 /* Settings.bundle */,
 				205E149618A55F4500B81323 /* iRMAppDelegate.h */,
 				205E149718A55F4500B81323 /* iRMAppDelegate.m */,
 				205E149918A55F4500B81323 /* MainMenu.xib */,
@@ -327,7 +324,6 @@
 				20CD8B5C18AD55FB00244B23 /* Images.xcassets in Resources */,
 				205E149518A55F4500B81323 /* Credits.rtf in Resources */,
 				20CDE94619947E9700580B66 /* heads-1.png in Resources */,
-				20BE101519989FC1000016B5 /* Settings.bundle in Resources */,
 				205E149B18A55F4500B81323 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
