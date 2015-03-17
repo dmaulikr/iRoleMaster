@@ -102,6 +102,9 @@
 		20CD8B5718AD38D300244B23 /* iRMArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMArmor.m; sourceTree = "<group>"; };
 		20CD8B5B18AD55FB00244B23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20CDE94519947E9700580B66 /* heads-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heads-1.png"; path = "Images.xcassets/heads.imageset/heads-1.png"; sourceTree = "<group>"; };
+		20EA018B1AB6586200967455 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		20EA018C1AB6586200967455 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20EA018D1AB6586200967455 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = nb; path = nb.lproj/Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +307,7 @@
 			knownRegions = (
 				en,
 				Base,
+				nb,
 			);
 			mainGroup = 205E147818A55F4500B81323;
 			productRefGroup = 205E148218A55F4500B81323 /* Products */;
@@ -368,6 +372,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				205E148E18A55F4500B81323 /* en */,
+				20EA018C1AB6586200967455 /* nb */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				205E149418A55F4500B81323 /* en */,
+				20EA018D1AB6586200967455 /* nb */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -384,6 +390,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				205E149A18A55F4500B81323 /* Base */,
+				20EA018B1AB6586200967455 /* nb */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

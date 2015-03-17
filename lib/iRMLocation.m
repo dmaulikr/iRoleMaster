@@ -34,158 +34,158 @@
 {
     switch ([_locationType intValue]) {
         case PLACE_INVALID:
-            return @"Invalid";
+            return NSLocalizedString(@"Invalid", @"Invalid Location Type");
         case PLACE_VILLAGE:
-            return @"Village";
+            return NSLocalizedString(@"Village", @"Village Location Type");
         case PLACE_TOWN:
-            return @"Town";
+            return NSLocalizedString(@"Town", @"Town Location Type");
         case PLACE_CITY:
-            return @"City";
+            return NSLocalizedString(@"City", @"City Location Type");
         case PLACE_METROPOL:
-            return @"Metropol";
+            return NSLocalizedString(@"Metropol", @"Metropol Location Type");
         case PLACE_SPRAWL:
-            return @"Sprawl";
+            return NSLocalizedString(@"Sprawl", @"Sprawl Location Type");
         case PLACE_CAPITAL:
-            return @"Capital";
+            return NSLocalizedString(@"Capital", @"Capital Location Type");
         case PLACE_HUT:
-            return @"Hut";
+            return NSLocalizedString(@"Hut", @"Hut Location Type");
         case PLACE_HOUSE:
-            return @"House";
+            return NSLocalizedString(@"House", @"House Location Type");
         case PLACE_SQUARE:
-            return @"Placa";
+            return NSLocalizedString(@"Placa", @"Placa/Square Location Type");
         case PLACE_FARM:
-            return @"Farm";
+            return NSLocalizedString(@"Farm", @"Farm Location Type");
         case PLACE_TOWER:
-            return @"Tower";
+            return NSLocalizedString(@"Tower", @"Tower Location Type");
         case PLACE_DEFENCE:
-            return @"Defence";
+            return NSLocalizedString(@"Defence", @"Defence Location Type");
         case PLACE_BATTLEFIELD:
-            return @"Battlefield";
+            return NSLocalizedString(@"Battlefield", @"Battlefield Location Type");
         case PLACE_FORT:
-            return @"Fort";
+            return NSLocalizedString(@"Fort", @"Fort Location Type");
         case PLACE_CASTLE:
-            return @"Castle";
+            return NSLocalizedString(@"Castle", @"Castle Location Type");
         case PLACE_VILLA:
-            return @"Villa";
+            return NSLocalizedString(@"Villa", @"Villa Location Type");
         case PLACE_COUNTY:
-            return @"County";
+            return NSLocalizedString(@"County", @"County Location Type");
         case PLACE_BARONY:
-            return @"Barony";
+            return NSLocalizedString(@"Barony", @"Barony Location Type");
         case PLACE_DUTCHY:
-            return @"Dutchy";
+            return NSLocalizedString(@"Dutchy", @"Dutchy Location Type");
         case PLACE_PRINCIPALITY:
-            return @"Principality";
+            return NSLocalizedString(@"Principality", @"Principality Location Type");
         case PLACE_KINGDOM:
-            return @"Kingdom";
+            return NSLocalizedString(@"Kingdom", @"Kingdom Location Type");
         case PLACE_EMPIRE:
-            return @"Empire";
+            return NSLocalizedString(@"Empire", @"Empire Location Type");
         case PLACE_FIELD:
-            return @"Field";
+            return NSLocalizedString(@"Field", @"Field Location Type");
         case PLACE_FOREST:
-            return @"Forest";
+            return NSLocalizedString(@"Forest", @"Forest Location Type");
         case PLACE_HILL:
-            return @"Hill";
+            return NSLocalizedString(@"Hill", @"Hill Location Type");
         case PLACE_MOUNTAIN:
-            return @"Mountain";
+            return NSLocalizedString(@"Mountain", @"Mountain Location Type");
         case PLACE_RUIN:
-            return @"Ruin";
+            return NSLocalizedString(@"Ruin", @"Ruin Location Type");
         case PLACE_CEMITERY:
-            return @"Cemitery";
+            return NSLocalizedString(@"Cemitery", @"Cemitery Location Type");
         case PLACE_TEMPLE:
-            return @"Temple";
+            return NSLocalizedString(@"Temple", @"Temple Location Type");
         case PLACE_RIVER:
-            return @"River";
+            return NSLocalizedString(@"River", @"River Location Type");
         case PLACE_FORD:
-            return @"Ford";
+            return NSLocalizedString(@"Ford", @"Ford Location Type");
         case PLACE_CAVE_ENTRANCE:
-            return @"Cave Entrance";
+            return NSLocalizedString(@"Cave Entrance", @"Cave Entrance Location Type");
         case PLACE_HAVEN:
-            return @"Haven";
+            return NSLocalizedString(@"Haven", @"Haven Location Type");
         case PLACE_LAKE:
-            return @"Lake";
+            return NSLocalizedString(@"Lake", @"Lake Location Type");
         case PLACE_OCEAN:
-            return @"Ocean";
+            return NSLocalizedString(@"Ocean", @"Ocean Location Type");
         default:
-            return @"Unknown";
+            return NSLocalizedString(@"Unknown", @"Unknown Location Type");
     }
 }
 - (NSString *) checkLocationType:(NSNumber *)locationCheckType
 {
     switch ([locationCheckType intValue]) {
         case PLACE_INVALID:
-            return @"Invalid";
+            return NSLocalizedString(@"Invalid", @"Invalid Location Type");
         case PLACE_VILLAGE:
-            return @"Village";
+            return NSLocalizedString(@"Village", @"Village Location Type");
         case PLACE_TOWN:
-            return @"Town";
+            return NSLocalizedString(@"Town", @"Town Location Type");
         case PLACE_CITY:
-            return @"City";
+            return NSLocalizedString(@"City", @"City Location Type");
         case PLACE_METROPOL:
-            return @"Metropol";
+            return NSLocalizedString(@"Metropol", @"Metropol Location Type");
         case PLACE_SPRAWL:
-            return @"Sprawl";
+            return NSLocalizedString(@"Sprawl", @"Sprawl Location Type");
         case PLACE_CAPITAL:
-            return @"Capital";
+            return NSLocalizedString(@"Capital", @"Capital Location Type");
         case PLACE_HUT:
-            return @"Hut";
+            return NSLocalizedString(@"Hut", @"Hut Location Type");
         case PLACE_HOUSE:
-            return @"House";
+            return NSLocalizedString(@"House", @"House Location Type");
         case PLACE_SQUARE:
-            return @"Placa";
+            return NSLocalizedString(@"Placa", @"Placa/Square Location Type");
         case PLACE_FARM:
-            return @"Farm";
+            return NSLocalizedString(@"Farm", @"Farm Location Type");
         case PLACE_TOWER:
-            return @"Tower";
+            return NSLocalizedString(@"Tower", @"Tower Location Type");
         case PLACE_DEFENCE:
-            return @"Defence";
+            return NSLocalizedString(@"Defence", @"Defence Location Type");
         case PLACE_BATTLEFIELD:
-            return @"Battlefield";
+            return NSLocalizedString(@"Battlefield", @"Battlefield Location Type");
         case PLACE_FORT:
-            return @"Fort";
+            return NSLocalizedString(@"Fort", @"Fort Location Type");
         case PLACE_CASTLE:
-            return @"Castle";
+            return NSLocalizedString(@"Castle", @"Castle Location Type");
         case PLACE_VILLA:
-            return @"Villa";
+            return NSLocalizedString(@"Villa", @"Villa Location Type");
         case PLACE_COUNTY:
-            return @"County";
+            return NSLocalizedString(@"County", @"County Location Type");
         case PLACE_BARONY:
-            return @"Barony";
+            return NSLocalizedString(@"Barony", @"Barony Location Type");
         case PLACE_DUTCHY:
-            return @"Dutchy";
+            return NSLocalizedString(@"Dutchy", @"Dutchy Location Type");
         case PLACE_PRINCIPALITY:
-            return @"Principality";
+            return NSLocalizedString(@"Principality", @"Principality Location Type");
         case PLACE_KINGDOM:
-            return @"Kingdom";
+            return NSLocalizedString(@"Kingdom", @"Kingdom Location Type");
         case PLACE_EMPIRE:
-            return @"Empire";
+            return NSLocalizedString(@"Empire", @"Empire Location Type");
         case PLACE_FIELD:
-            return @"Field";
+            return NSLocalizedString(@"Field", @"Field Location Type");
         case PLACE_FOREST:
-            return @"Forest";
+            return NSLocalizedString(@"Forest", @"Forest Location Type");
         case PLACE_HILL:
-            return @"Hill";
+            return NSLocalizedString(@"Hill", @"Hill Location Type");
         case PLACE_MOUNTAIN:
-            return @"Mountain";
+            return NSLocalizedString(@"Mountain", @"Mountain Location Type");
         case PLACE_RUIN:
-            return @"Ruin";
+            return NSLocalizedString(@"Ruin", @"Ruin Location Type");
         case PLACE_CEMITERY:
-            return @"Cemitery";
+            return NSLocalizedString(@"Cemitery", @"Cemitery Location Type");
         case PLACE_TEMPLE:
-            return @"Temple";
+            return NSLocalizedString(@"Temple", @"Temple Location Type");
         case PLACE_RIVER:
-            return @"River";
+            return NSLocalizedString(@"River", @"River Location Type");
         case PLACE_FORD:
-            return @"Ford";
+            return NSLocalizedString(@"Ford", @"Ford Location Type");
         case PLACE_CAVE_ENTRANCE:
-            return @"Cave Entrance";
+            return NSLocalizedString(@"Cave Entrance", @"Cave Entrance Location Type");
         case PLACE_HAVEN:
-            return @"Haven";
+            return NSLocalizedString(@"Haven", @"Haven Location Type");
         case PLACE_LAKE:
-            return @"Lake";
+            return NSLocalizedString(@"Lake", @"Lake Location Type");
         case PLACE_OCEAN:
-            return @"Ocean";
+            return NSLocalizedString(@"Ocean", @"Ocean Location Type");
         default:
-            return @"Unknown";
+            return NSLocalizedString(@"Unknown", @"Unknown Location Type");
     }
 
 }

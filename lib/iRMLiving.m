@@ -18,8 +18,8 @@
     self = [super init];
     
     if (self) {
-        iRMStat *rawStats[10] = { [[iRMStat alloc] initWithID:@0], [[iRMStat alloc] initWithID:@1], [[iRMStat alloc] initWithID:@2], [[iRMStat alloc] initWithID:@3], [[iRMStat alloc] initWithID:@4], [[iRMStat alloc] initWithID:@5], [[iRMStat alloc] initWithID:@6], [[iRMStat alloc] initWithID:@7], [[iRMStat alloc] initWithID:@8], [[iRMStat alloc] initWithID:@9] };
-        _livingStats = [NSArray arrayWithObjects:&(rawStats) count:10];
+        const iRMStat __unsafe_unretained *rawStats[10] = { [[iRMStat alloc] initWithID:@0], [[iRMStat alloc] initWithID:@1], [[iRMStat alloc] initWithID:@2], [[iRMStat alloc] initWithID:@3], [[iRMStat alloc] initWithID:@4], [[iRMStat alloc] initWithID:@5], [[iRMStat alloc] initWithID:@6], [[iRMStat alloc] initWithID:@7], [[iRMStat alloc] initWithID:@8], [[iRMStat alloc] initWithID:@9] };
+        _livingStats = [NSArray arrayWithObjects:(rawStats) count:10];
     }
     return self;
 }
@@ -28,16 +28,16 @@
 {
     switch ([_livingGender intValue]) {
         case GENDER_NEUTER:
-            return @"Neuter";
+            return NSLocalizedString(@"Neuter", @"Gender: Neuter");
             break;
         case GENDER_MALE:
-            return @"Male";
+            return NSLocalizedString(@"Male", @"Gender: Male");
             break;
         case GENDER_FEMALE:
-            return @"Female";
+            return NSLocalizedString(@"Female", @"Gender: Female");
             break;
         default:
-            return @"Unknown";
+            return NSLocalizedString(@"Unknown", @"Gender: Unknown");
     }
 }
 

@@ -782,6 +782,7 @@ Gw
                     </scrollView>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="569" y="-215.5"/>
         </window>
         <window title="iRoleMaster : GM Tool" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="8AW-Ja-58S">
             <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" resizable="YES"/>

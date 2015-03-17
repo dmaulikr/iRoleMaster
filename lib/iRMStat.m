@@ -137,47 +137,47 @@
     switch ([sID intValue]) {
         case STAT_AGILITY:
             self.statAbrev = @"AG";
-            self.statName = @"Agility";
+            self.statName = NSLocalizedString(@"Agility", @"Attribute: Agility");
             break;
         case STAT_CONSTITUTION:
             self.statAbrev = @"CO";
-            self.statName = @"Constitution";
+            self.statName = NSLocalizedString(@"Constitution", @"Attribute: Constitution");
             break;
         case STAT_MEMORY:
             self.statAbrev = @"ME";
-            self.statName = @"Memory";
+            self.statName = NSLocalizedString(@"Memory", @"Attribute: Memory");
             break;
         case STAT_REASONING:
             self.statAbrev = @"RE";
-            self.statName = @"Reasoning";
+            self.statName = NSLocalizedString(@"Reasoning", @"Attribute: Reasoning");
             break;
         case STAT_SELFDISCIPLINE:
             self.statAbrev = @"SD";
-            self.statName = @"Self Discipline";
+            self.statName = NSLocalizedString(@"Self Discipline", @"Attribute: Self Discipline");
             break;
         case STAT_EMPATHY:
             self.statAbrev = @"EM";
-            self.statName = @"Empathy";
+            self.statName = NSLocalizedString(@"Empathy", @"Attribute: Empathy");
             break;
         case STAT_INTUITION:
             self.statAbrev = @"IN";
-            self.statName = @"Intuition";
+            self.statName = NSLocalizedString(@"Intuition", @"Attribute: Intuition");
             break;
         case STAT_PRESENCE:
             self.statAbrev = @"PR";
-            self.statName = @"Presence";
+            self.statName = NSLocalizedString(@"Presence", @"Attribute: Presence");
             break;
         case STAT_QUICKNESS:
             self.statAbrev = @"QU";
-            self.statName = @"Quickness";
+            self.statName = NSLocalizedString(@"Quickness", @"Attribute: Quickness");
             break;
         case STAT_STRENGTH:
             self.statAbrev = @"ST";
-            self.statName = @"Strength";
+            self.statName = NSLocalizedString(@"Strength", @"Attribute: Strength");
             break;
         default:
             self.statAbrev = @"none";
-            self.statName = @"-- none --";
+            self.statName = NSLocalizedString(@"-- none --", @"Attribute: None - error");
             NSLog(@"Error in initializing STAT, ID:%d invalid.", [sID intValue]);
             return;
     }
