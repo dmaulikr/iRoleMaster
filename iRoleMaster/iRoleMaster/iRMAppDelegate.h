@@ -16,8 +16,8 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @property (weak) IBOutlet NSPanel *startWindowPanel;
-//@property (weak) IBOutlet NSWindow *gmToolWindow;
-//@property (weak) IBOutlet NSWindow *newCharacterWindow;
+@property (weak) IBOutlet NSWindow *gmToolWindow;
+@property (weak) IBOutlet NSWindow *openNewCharacterWindow;
 
 
 - (IBAction)saveAction:(id)sender;

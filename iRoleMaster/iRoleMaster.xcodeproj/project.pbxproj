@@ -18,6 +18,13 @@
 		2095689819993813006AD036 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2095689619993813006AD036 /* Quartz.framework */; };
 		2095689919993813006AD036 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2095689719993813006AD036 /* SpriteKit.framework */; };
 		20A850C01930155900B8FF24 /* iRMSkillCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A850BF1930155900B8FF24 /* iRMSkillCategory.m */; };
+		20AC8DAF1AB8A4100031BCA1 /* Culture.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20AC8DB11AB8A4100031BCA1 /* Culture.plist */; };
+		20AC8DB21AB8A4150031BCA1 /* Professions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20AC8DB41AB8A4150031BCA1 /* Professions.plist */; };
+		20AC8DB51AB8A41A0031BCA1 /* Flaws.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20AC8DB71AB8A41A0031BCA1 /* Flaws.plist */; };
+		20AC8DB81AB8A41E0031BCA1 /* Races.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20AC8DBA1AB8A41E0031BCA1 /* Races.plist */; };
+		20AC8DBB1AB8A4220031BCA1 /* Skills.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20AC8DBD1AB8A4220031BCA1 /* Skills.plist */; };
+		20AC8DBE1AB8A4270031BCA1 /* Talents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20AC8DC01AB8A4270031BCA1 /* Talents.plist */; };
+		20AC8DC11AB8A42B0031BCA1 /* TrainingPackages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20AC8DC31AB8A42B0031BCA1 /* TrainingPackages.plist */; };
 		20CD8B4118AC283000244B23 /* iRMCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B1E18AC283000244B23 /* iRMCalendar.m */; };
 		20CD8B4218AC283000244B23 /* iRMCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B2018AC283000244B23 /* iRMCampaign.m */; };
 		20CD8B4318AC283000244B23 /* iRMCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B2218AC283000244B23 /* iRMCharacter.m */; };
@@ -54,7 +61,6 @@
 		205E149418A55F4500B81323 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		205E149618A55F4500B81323 /* iRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRMAppDelegate.h; sourceTree = "<group>"; };
 		205E149718A55F4500B81323 /* iRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRMAppDelegate.m; sourceTree = "<group>"; };
-		205E149A18A55F4500B81323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		205E149D18A55F4500B81323 /* iRoleMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRoleMaster.xcdatamodel; sourceTree = "<group>"; };
 		205E14A618A55F4500B81323 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		20956894199937D6006AD036 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -62,6 +68,14 @@
 		2095689719993813006AD036 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		20A850BE1930155900B8FF24 /* iRMSkillCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMSkillCategory.h; sourceTree = "<group>"; };
 		20A850BF1930155900B8FF24 /* iRMSkillCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMSkillCategory.m; sourceTree = "<group>"; };
+		20AC8DCC1AB8ACA40031BCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/TrainingPackages.plist; sourceTree = "<group>"; };
+		20AC8DCD1AB8ACA70031BCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Talents.plist; sourceTree = "<group>"; };
+		20AC8DCE1AB8ACCA0031BCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Skills.plist; sourceTree = "<group>"; };
+		20AC8DCF1AB8ACD10031BCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Races.plist; sourceTree = "<group>"; };
+		20AC8DD01AB8ACD70031BCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Flaws.plist; sourceTree = "<group>"; };
+		20AC8DD11AB8ACDD0031BCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Professions.plist; sourceTree = "<group>"; };
+		20AC8DD21AB8ACE20031BCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Culture.plist; sourceTree = "<group>"; };
+		20AC8DDB1AB8AD8A0031BCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		20CD8B1D18AC283000244B23 /* iRMCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMCalendar.h; sourceTree = "<group>"; };
 		20CD8B1E18AC283000244B23 /* iRMCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMCalendar.m; sourceTree = "<group>"; };
 		20CD8B1F18AC283000244B23 /* iRMCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMCampaign.h; sourceTree = "<group>"; };
@@ -102,9 +116,6 @@
 		20CD8B5718AD38D300244B23 /* iRMArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMArmor.m; sourceTree = "<group>"; };
 		20CD8B5B18AD55FB00244B23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20CDE94519947E9700580B66 /* heads-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heads-1.png"; path = "Images.xcassets/heads.imageset/heads-1.png"; sourceTree = "<group>"; };
-		20EA018B1AB6586200967455 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		20EA018C1AB6586200967455 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		20EA018D1AB6586200967455 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = nb; path = nb.lproj/Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,9 +200,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		20AC8DAE1AB86AA30031BCA1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				20AC8DB11AB8A4100031BCA1 /* Culture.plist */,
+				20AC8DB41AB8A4150031BCA1 /* Professions.plist */,
+				20AC8DB71AB8A41A0031BCA1 /* Flaws.plist */,
+				20AC8DBA1AB8A41E0031BCA1 /* Races.plist */,
+				20AC8DBD1AB8A4220031BCA1 /* Skills.plist */,
+				20AC8DC01AB8A4270031BCA1 /* Talents.plist */,
+				20AC8DC31AB8A42B0031BCA1 /* TrainingPackages.plist */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
 		20CD8B1C18AC283000244B23 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				20AC8DAE1AB86AA30031BCA1 /* Modules */,
 				20CD8B5418AC284700244B23 /* Event */,
 				20CD8B1F18AC283000244B23 /* iRMCampaign.h */,
 				20CD8B2018AC283000244B23 /* iRMCampaign.m */,
@@ -306,8 +332,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
-				nb,
 			);
 			mainGroup = 205E147818A55F4500B81323;
 			productRefGroup = 205E148218A55F4500B81323 /* Products */;
@@ -324,9 +348,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20AC8DB21AB8A4150031BCA1 /* Professions.plist in Resources */,
+				20AC8DB81AB8A41E0031BCA1 /* Races.plist in Resources */,
+				20AC8DBB1AB8A4220031BCA1 /* Skills.plist in Resources */,
+				20AC8DC11AB8A42B0031BCA1 /* TrainingPackages.plist in Resources */,
+				20AC8DBE1AB8A4270031BCA1 /* Talents.plist in Resources */,
 				205E148F18A55F4500B81323 /* InfoPlist.strings in Resources */,
+				20AC8DAF1AB8A4100031BCA1 /* Culture.plist in Resources */,
 				20CD8B5C18AD55FB00244B23 /* Images.xcassets in Resources */,
 				205E149518A55F4500B81323 /* Credits.rtf in Resources */,
+				20AC8DB51AB8A41A0031BCA1 /* Flaws.plist in Resources */,
 				20CDE94619947E9700580B66 /* heads-1.png in Resources */,
 				205E149B18A55F4500B81323 /* MainMenu.xib in Resources */,
 			);
@@ -372,7 +403,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				205E148E18A55F4500B81323 /* en */,
-				20EA018C1AB6586200967455 /* nb */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -381,7 +411,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				205E149418A55F4500B81323 /* en */,
-				20EA018D1AB6586200967455 /* nb */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -389,10 +418,65 @@
 		205E149918A55F4500B81323 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				205E149A18A55F4500B81323 /* Base */,
-				20EA018B1AB6586200967455 /* nb */,
+				20AC8DDB1AB8AD8A0031BCA1 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		20AC8DB11AB8A4100031BCA1 /* Culture.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC8DD21AB8ACE20031BCA1 /* en */,
+			);
+			name = Culture.plist;
+			sourceTree = "<group>";
+		};
+		20AC8DB41AB8A4150031BCA1 /* Professions.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC8DD11AB8ACDD0031BCA1 /* en */,
+			);
+			name = Professions.plist;
+			sourceTree = "<group>";
+		};
+		20AC8DB71AB8A41A0031BCA1 /* Flaws.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC8DD01AB8ACD70031BCA1 /* en */,
+			);
+			name = Flaws.plist;
+			sourceTree = "<group>";
+		};
+		20AC8DBA1AB8A41E0031BCA1 /* Races.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC8DCF1AB8ACD10031BCA1 /* en */,
+			);
+			name = Races.plist;
+			sourceTree = "<group>";
+		};
+		20AC8DBD1AB8A4220031BCA1 /* Skills.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC8DCE1AB8ACCA0031BCA1 /* en */,
+			);
+			name = Skills.plist;
+			sourceTree = "<group>";
+		};
+		20AC8DC01AB8A4270031BCA1 /* Talents.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC8DCD1AB8ACA70031BCA1 /* en */,
+			);
+			name = Talents.plist;
+			sourceTree = "<group>";
+		};
+		20AC8DC31AB8A42B0031BCA1 /* TrainingPackages.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC8DCC1AB8ACA40031BCA1 /* en */,
+			);
+			name = TrainingPackages.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

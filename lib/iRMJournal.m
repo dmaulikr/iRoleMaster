@@ -25,22 +25,26 @@
     }
     return self;
 }
-/*
+
 - (void) addEvent:(iRMEvent *)event
 {
-    [_journalEvents addObject:event];
+    iRMJournalEntry *newEntry = [[iRMJournalEntry alloc] init];
+    [newEntry setEvent:event];
+    [_journalEntry addObject:newEntry];
     iRMLog *newLog = [[iRMLog alloc] init];
     newLog.logCharacter = _journalOwner;
     newLog.logDescription = [[NSString alloc] initWithFormat:@"%@ learns about an event: %@", [newLog.logCharacter characterName], [event eventTitle]];
 }
 - (void) addHandout:(iRMHandout *)handout
 {
-    [_journalHandouts addObject:handout];
+    iRMJournalEntry *newEntry = [[iRMJournalEntry alloc] init];
+    [newEntry setHandout:handout];
+    [_journalEntry addObject:newEntry];
     iRMLog *newLog = [[iRMLog alloc] init];
     newLog.logCharacter = _journalOwner;
     newLog.logDescription = [[NSString alloc] initWithFormat:@"%@ given a handout: %@", [newLog.logCharacter characterName], [handout handoutTitle]];
     
-} */
+} 
 - (void) addEntry:(iRMJournalEntry *)entry
 {
     [_journalEntry addObject:entry];

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iRMCultureList</key>
+	<array>
+		<dict>
+			<key>iRMCultureName</key>
+			<string>Human (Common)</string>
+			<key>iRMCultureDisplayName</key>
+			<string>Common Man</string>
+			<key>iRMCultureDescription</key>
+			<string></string>
+			<key>iRMCultureAdolesence</key>
+			<array/>
+			<key>iRMCultureAdvanced</key>
+			<dict>
+				<key>iRMRaceArchitectLevel</key>
+				<integer>1</integer>
+				<key>iRMRaceSiegeLevel</key>
+				<integer>1</integer>
+				<key>iRMRaceTrapBuildingLevel</key>
+				<integer>1</integer>
+				<key>iRMRaceTechnologyLevel</key>
+				<integer>6</integer>
+				<key>iRMRaceLaborEffectiveness</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

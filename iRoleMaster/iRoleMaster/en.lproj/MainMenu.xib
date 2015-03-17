@@ -797,7 +797,7 @@ Gw
         <customObject id="494" customClass="iRMAppDelegate">
             <connections>
                 <outlet property="gmToolWindow" destination="8AW-Ja-58S" id="dQJ-7N-D9h"/>
-                <outlet property="newCharacterWindow" destination="EyK-ff-8so" id="sSH-qk-Wgx"/>
+                <outlet property="openNewCharacterWindow" destination="EyK-ff-8so" id="W1g-t5-z9r"/>
                 <outlet property="startWindowPanel" destination="Vqe-mr-R1Q" id="lHL-nL-ok8"/>
             </connections>
         </customObject>

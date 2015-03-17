@@ -140,18 +140,18 @@
 
 - (IBAction)newCharacterAction:(id)sender {
     NSLog(@"newCharacterAction been activated");
-//    [_newCharacterWindow setIsVisible:YES];
+    [_openNewCharacterWindow setIsVisible:YES];
     [_startWindowPanel setIsVisible:NO];
 }
 
 - (IBAction)openCharacterAction:(id)sender {
     NSLog(@"openCharacterAction been activated");
-    [_startWindowPanel setIsVisible:NO];
+    //    [_startWindowPanel setIsVisible:NO];
 }
 
 - (IBAction)gmToolAction:(id)sender {
     NSLog(@"gmToolAction been activated");
-//    [gmToolWindow setIsVisible:YES];
+    [_gmToolWindow setIsVisible:YES];
     [_startWindowPanel setIsVisible:NO];
 }
 

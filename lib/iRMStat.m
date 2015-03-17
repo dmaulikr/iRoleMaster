@@ -11,8 +11,14 @@
 
 @implementation iRMStat
 
-/*
- * Initializing iRMStat
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  Initializer, base initializing of a stat object
+ *
+ *  @return the stat object
+ *
+ *  @since 0
  */
 - (id)init
 {
@@ -26,6 +32,19 @@
     }
     return self;
 }
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  Initializer for loaded objects
+ *
+ *  @param sID  stat ID
+ *  @param temp Temp stat value
+ *  @param pot  Pot stat value
+ *
+ *  @return the stat object
+ *
+ *  @since 0
+ */
 - (id)initFromLoad:(NSNumber *)sID temp:(NSNumber *)temp pot:(NSNumber *)pot
 {
     self = [super init];
@@ -40,6 +59,17 @@
     }
     return self;
 }
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  Default initializer
+ *
+ *  @param sID stat ID
+ *
+ *  @return the stat object
+ *
+ *  @since 0
+ */
 - (id)initWithID:(NSNumber *)sID
 {
     self = [super init];
@@ -54,20 +84,16 @@
     }
     return self;
 }
-/*+ (id)statWithID:(NSNumber *)sID
-{
-    return [self initWithID:sID];
 
-    self.statID = [[NSNumber alloc] initWithInt:[sID intValue]];
-    [self buildFromID:sID];
-    self.statTemp = @60;
-    [self calculatePotStat];
-    [self calculateBasicBonus];
-    [self calculateTotalBonus];
- 
-}*/
-/*
- * Methods setting/altering variables
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  This function should be run for each stat on level up
+ *
+ *  @param firstDie  first die roll (value 1 - 10)
+ *  @param secondDie second die roll (value 1 - 10)
+ *
+ *  @since 0
  */
 - (void)rollStatGain:(NSNumber *)firstDie and:(NSNumber *) secondDie
 {
@@ -132,59 +158,84 @@
     [self calculateTotalBonus];
 }
 
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  Building the stats, based on their ids
+ *
+ *  @param sID stat ID
+ *
+ *  @since 0
+ */
 - (void)buildFromID:(NSNumber *)sID
 {
     switch ([sID intValue]) {
         case STAT_AGILITY:
             self.statAbrev = @"AG";
-            self.statName = NSLocalizedString(@"Agility", @"Attribute: Agility");
+            self.statName = NSLocalizedString(@"Stat:Agility", @"Attribute: Agility");
+            self.statDescription = NSLocalizedString(@"Stat:Agility:Description", @"Description: Agility");
             break;
         case STAT_CONSTITUTION:
             self.statAbrev = @"CO";
-            self.statName = NSLocalizedString(@"Constitution", @"Attribute: Constitution");
+            self.statName = NSLocalizedString(@"Stat:Constitution", @"Attribute: Constitution");
+            self.statDescription = NSLocalizedString(@"Stat:Constitution:Description", @"Description: Constitution");
             break;
         case STAT_MEMORY:
             self.statAbrev = @"ME";
-            self.statName = NSLocalizedString(@"Memory", @"Attribute: Memory");
+            self.statName = NSLocalizedString(@"Stat:Memory", @"Attribute: Memory");
+            self.statDescription = NSLocalizedString(@"Stat:Memory:Description", @"Description: Memory");
             break;
         case STAT_REASONING:
             self.statAbrev = @"RE";
-            self.statName = NSLocalizedString(@"Reasoning", @"Attribute: Reasoning");
+            self.statName = NSLocalizedString(@"Stat:Reasoning", @"Attribute: Reasoning");
+            self.statDescription = NSLocalizedString(@"Stat:Reasoning:Description", @"Description: Reasoning");
             break;
         case STAT_SELFDISCIPLINE:
             self.statAbrev = @"SD";
-            self.statName = NSLocalizedString(@"Self Discipline", @"Attribute: Self Discipline");
+            self.statName = NSLocalizedString(@"Stat:Self Discipline", @"Attribute: Self Discipline");
+            self.statDescription = NSLocalizedString(@"Stat:Self Discipline:Description", @"Description: Self Discipline");
             break;
         case STAT_EMPATHY:
             self.statAbrev = @"EM";
-            self.statName = NSLocalizedString(@"Empathy", @"Attribute: Empathy");
+            self.statName = NSLocalizedString(@"Stat:Empathy", @"Attribute: Empathy");
+            self.statDescription = NSLocalizedString(@"Stat:Empathy:Description", @"Description: Empathy");
             break;
         case STAT_INTUITION:
             self.statAbrev = @"IN";
-            self.statName = NSLocalizedString(@"Intuition", @"Attribute: Intuition");
+            self.statName = NSLocalizedString(@"Stat:Intuition", @"Attribute: Intuition");
+            self.statDescription = NSLocalizedString(@"Stat:Intuition:Description", @"Description: Intuition");
             break;
         case STAT_PRESENCE:
             self.statAbrev = @"PR";
-            self.statName = NSLocalizedString(@"Presence", @"Attribute: Presence");
+            self.statName = NSLocalizedString(@"Stat:Presence", @"Attribute: Presence");
+            self.statDescription = NSLocalizedString(@"Stat:Presence:Description", @"Description: Presence");
             break;
         case STAT_QUICKNESS:
             self.statAbrev = @"QU";
-            self.statName = NSLocalizedString(@"Quickness", @"Attribute: Quickness");
+            self.statName = NSLocalizedString(@"Stat:Quickness", @"Attribute: Quickness");
+            self.statDescription = NSLocalizedString(@"Stat:Quickness:Description", @"Description: Quickness");
             break;
         case STAT_STRENGTH:
             self.statAbrev = @"ST";
-            self.statName = NSLocalizedString(@"Strength", @"Attribute: Strength");
+            self.statName = NSLocalizedString(@"Stat:Strength", @"Attribute: Strength");
+            self.statDescription = NSLocalizedString(@"Stat:Strength:Description", @"Description: Strength");
             break;
         default:
             self.statAbrev = @"none";
-            self.statName = NSLocalizedString(@"-- none --", @"Attribute: None - error");
+            self.statName = NSLocalizedString(@"Stat:-- none --", @"Attribute: None - error");
+            self.statDescription = NSLocalizedString(@"Stat:Error:Description", @"Description: Error in Stats");
             NSLog(@"Error in initializing STAT, ID:%d invalid.", [sID intValue]);
             return;
     }
     NSLog(@"Stat: (%@)%@ initialized with ID:%d.", _statAbrev, _statName, [sID intValue]);
 }
-/*
- * Methods recalculating variables
+
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  On the fly calculation of pot stat value, this is done during character creation
+ *
+ *  @since 0
  */
 - (void)calculatePotStat
 {
@@ -216,6 +267,14 @@
         _statPot = [[NSNumber alloc] initWithInt:([_statTemp intValue] + 44)];
     }
 }
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  Calculates the Basic Bonus of the stat, this should be re-run for every change of a stat (temporary 
+ *     reductions due to poison, spells, etc. as well as permanent changes at level up)
+ *
+ *  @since 0
+ */
 - (void)calculateBasicBonus
 {
     if ([_statTemp intValue] < 11) {
@@ -264,6 +323,16 @@
     return _statTotalBonus;
 }
 
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  Getting the assignment cost of a stat. This function will be constantly run during creation, until the character
+ *     is saved.
+ *
+ *  @return The assignment cost of the stat
+ *
+ *  @since 0
+ */
 - (NSNumber *)getAssignmentCost
 {
     if ([_statTemp intValue] > 90) {

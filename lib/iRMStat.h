@@ -35,6 +35,7 @@ enum {
 
 @property NSString *statAbrev;
 @property NSString *statName;
+@property NSString *statDescription;
 
 @property NSNumber *statTemp;
 @property NSNumber *statPot;
