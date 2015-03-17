@@ -118,270 +118,2270 @@
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Armor • Medium</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Armor</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ST</string>
+				<string>AG</string>
+				<string>ST</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Artistic • Active</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Artistic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>PR</string>
+				<string>EM</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Artistic • Passive</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Artistic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>EM</string>
+				<string>IN</string>
+				<string>PR</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Athletic • Brawn</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Athletic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ST</string>
+				<string>CO</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Athletic • Endurance</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Athletic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>CO</string>
+				<string>AG</string>
+				<string>ST</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Athletic • Gymnastic</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Athletic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>QU</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Awareness • Perception</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Awareness</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>IN</string>
+				<string>SD</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Awareness • Searching</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Awareness</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>IN</string>
+				<string>RE</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Awareness • Senses</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Awareness</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>IN</string>
+				<string>SD</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Body Development</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Body</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>CO</string>
+				<string>SD</string>
+				<string>CO</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Combat Maneuvers</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Combat Maneuvers</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>QU</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Communications</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Communications</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>RE</string>
+				<string>ME</string>
+				<string>EM</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Crafts</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Crafts</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>ME</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Directed Spells</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Directed Spells</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>SD</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Influence</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Influence</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>PR</string>
+				<string>EM</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Lore • Academic</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Lore</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ME</string>
+				<string>RE</string>
+				<string>ME</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Lore • General</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Lore</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ME</string>
+				<string>RE</string>
+				<string>ME</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Lore • Magical</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Lore</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ME</string>
+				<string>RE</string>
+				<string>ME</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Lore • Obscure</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Lore</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ME</string>
+				<string>RE</string>
+				<string>ME</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Lore • Technical</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Lore</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ME</string>
+				<string>RE</string>
+				<string>ME</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Martial Arts • Combat Maneuvers</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Martial Arts</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>QU</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Martial Arts • Striking</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Martial Arts</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ST</string>
+				<string>AG</string>
+				<string>ST</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Martial Arts • Sweeps</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Martial Arts</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>ST</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Mind Point Development</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Outdoor • Animal</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Outdoor</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>EM</string>
+				<string>AG</string>
+				<string>EM</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Outdoor • Environmental</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Outdoor</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>IN</string>
+				<string>ME</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Power Awareness</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Power</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>EM</string>
+				<string>IN</string>
+				<string>PR</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Power Manipulation</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Power</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>EM</string>
+				<string>IN</string>
+				<string>PR</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Power Point Development</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Power</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array/>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Electrokinesis</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Healing</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>EM</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Meta-Psi</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>PR</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Mind Over Matter</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Photokinesis</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Psychokinesis</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>PR</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Radiokinesis</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Telepathy</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>EM</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Psychic • Thermokinesis</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Psychic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>SD</string>
+				<string>PR</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Science/Analytic • Basic</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Science/Analytic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>RE</string>
+				<string>ME</string>
+				<string>RE</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Science/Analytic • Engineering</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Science/Analytic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>RE</string>
+				<string>ME</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Science/Analytic • Medical</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Science/Analytic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>RE</string>
+				<string>ME</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Science/Analytic • Specialized</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Science/Analytic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>RE</string>
+				<string>ME</string>
+				<string>RE</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Science/Analytic • Technical</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Science/Analytic</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>RE</string>
+				<string>ME</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Self Control</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Self Control</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>SD</string>
+				<string>PR</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Special Attacks</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Special Attacks</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ST</string>
+				<string>AG</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Special Defences</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Special Defences</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array/>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Subterfuge • Attack</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Subterfuge</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>SD</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Subterfuge • Mechanics</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Subterfuge</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>IN</string>
+				<string>AG</string>
+				<string>RE</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Subterfuge • Stealth</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Subterfuge</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>SD</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Technical/Trade • General</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Technical/Trade</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>RE</string>
+				<string>ME</string>
+				<string>SD</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Technical/Trade • Gunnery</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Technical/Trade</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>IN</string>
+				<string>AG</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Technical/Trade • Professional</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Technical/Trade</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>RE</string>
+				<string>ME</string>
+				<string>IN</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Technical/Trade • Vehicles</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Technical/Trade</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>IN</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Technical/Trade • Vocational</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Technical/Trade</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-30</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<real>1.5</real>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ME</string>
+				<string>IN</string>
+				<string>RE</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Urban</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Urban</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<false/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>IN</string>
+				<string>PR</string>
+				<string>RE</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • 1-H Concussion</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ST</string>
+				<string>AG</string>
+				<string>ST</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • 1-H Edged</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ST</string>
+				<string>AG</string>
+				<string>ST</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • 1-H Energy</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>AG</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • 1-H Firearms</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>ST</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • 2-Handed</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ST</string>
+				<string>AG</string>
+				<string>ST</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • 2-H Energy</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>AG</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • 2-H Firearms</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>ST</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • Missile</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>ST</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • Missile Artillery</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>IN</string>
+				<string>AG</string>
+				<string>RE</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • Pole Arms</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>ST</string>
+				<string>AG</string>
+				<string>ST</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • Support</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>ST</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 		<dict>
 			<key>iRMSkillCategoryName</key>
 			<string>Weapon • Thrown</string>
+			<key>iRMSkillCategoryDescription</key>
+			<string></string>
+			<key>iRMSkillGroup</key>
+			<string>Weapon</string>
+			<key>iRMSkillCategoryProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+				<integer>0</integer>
+			</array>
+			<key>iRMSkillProgress</key>
+			<array>
+				<integer>-15</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<real>0.5</real>
+			</array>
+			<key>iRMisCombatSkill</key>
+			<true/>
+			<key>iRMSkillCategoryStats</key>
+			<array>
+				<string>AG</string>
+				<string>ST</string>
+				<string>AG</string>
+			</array>
+			<key>iRMSkillList</key>
+			<array/>
 		</dict>
 	</array>
 </dict>
