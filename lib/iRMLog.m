@@ -19,7 +19,8 @@
     
     if (self) {
         _logRealDate = [NSDate date];
-//        _logGameDate = [iRMCalendar getGameDate]; // Get the 'now' time in the game
+        //        _logGameDate = [NSDate getGameDate]; // Get the 'now' time in the game
+        _logLevel = [[NSNumber alloc] initWithInt:3];
     }
     return self;
 }

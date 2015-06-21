@@ -13,7 +13,7 @@
 
 @interface iRMHex : NSObject
 
-@property NSNumber *hexID; // unique ID
+@property NSNumber *hexID; // unique ID <- to find again on the map
 @property NSNumber *hexClimate; // CLIMATE_* from iRMTerrain.h
 @property NSNumber *hexLocate; // LOCATE_* from iRMTerrain.h
 @property NSNumber *hexScale; // Scale coresponds with zoom-level, lower number = more details

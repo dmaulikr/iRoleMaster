@@ -13,6 +13,7 @@
 #import <Foundation/Foundation.h>
 #import "iRMCalendar.h"
 #import "iRMTimeline.h"
+#import "iRMMap.h"
 
 @interface iRMCampaign : NSObject
 
@@ -21,5 +22,6 @@
 
 @property iRMTimeline *campaignTimeline;
 @property iRMCalendar *campaignCalendar;
+@property iRMMap *campaignMap;
 
 @end

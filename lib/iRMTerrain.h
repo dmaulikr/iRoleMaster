@@ -51,12 +51,12 @@ enum  {
     LOCALE_BATTLEFIELD = 'Y',
     LOCALE_DESERT = 'Z',
     /* Other */
-    LOCALE_MARSH_SWAMP,
-    LOCALE_TUNDRA,
-    LOCALE_RURAL_CULTIVATED,
-    LOCALE_CAVE_ENTRANCE,
-    LOCALE_BURIAL_GROUND,
-    LOCALE_RUINS
+    LOCALE_MARSH_SWAMP = '~',
+    LOCALE_TUNDRA = '#',
+    LOCALE_RURAL_CULTIVATED = '$',
+    LOCALE_CAVE_ENTRANCE = '@',
+    LOCALE_BURIAL_GROUND = '&',
+    LOCALE_RUINS = '*'
     };
 /*
  * A herb or animal that inherit LOCATE_PLAIN implies LOCATE_SHORT_GRASS and LOCATE_TALL_GRASS as well
@@ -77,5 +77,8 @@ enum  {
 
 - (BOOL) localeHasType: (char) localeType;
 - (BOOL) climateHasType: (char) climateType;
+
+- (NSString *) getLocaleTypeString: (char) localeType;
+- (NSString *) getClimateTypeString: (char) climateType;
 
 @end

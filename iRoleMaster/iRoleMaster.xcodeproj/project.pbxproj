@@ -14,6 +14,8 @@
 		205E149818A55F4500B81323 /* iRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 205E149718A55F4500B81323 /* iRMAppDelegate.m */; };
 		205E149B18A55F4500B81323 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 205E149918A55F4500B81323 /* MainMenu.xib */; };
 		205E149E18A55F4500B81323 /* iRoleMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 205E149C18A55F4500B81323 /* iRoleMaster.xcdatamodeld */; };
+		207D20AF1B3629BB004C294B /* iRMMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 207D20AE1B3629BB004C294B /* iRMMap.m */; };
+		207D20B21B362B7C004C294B /* iRMMapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207D20B11B362B7C004C294B /* iRMMapLabel.m */; };
 		20956895199937D6006AD036 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20956894199937D6006AD036 /* GameKit.framework */; };
 		2095689819993813006AD036 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2095689619993813006AD036 /* Quartz.framework */; };
 		2095689919993813006AD036 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2095689719993813006AD036 /* SpriteKit.framework */; };
@@ -63,6 +65,10 @@
 		205E149718A55F4500B81323 /* iRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRMAppDelegate.m; sourceTree = "<group>"; };
 		205E149D18A55F4500B81323 /* iRoleMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRoleMaster.xcdatamodel; sourceTree = "<group>"; };
 		205E14A618A55F4500B81323 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		207D20AD1B3629BB004C294B /* iRMMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMMap.h; sourceTree = "<group>"; };
+		207D20AE1B3629BB004C294B /* iRMMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMMap.m; sourceTree = "<group>"; };
+		207D20B01B362B7C004C294B /* iRMMapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMMapLabel.h; sourceTree = "<group>"; };
+		207D20B11B362B7C004C294B /* iRMMapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMMapLabel.m; sourceTree = "<group>"; };
 		20956894199937D6006AD036 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		2095689619993813006AD036 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		2095689719993813006AD036 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
@@ -221,6 +227,10 @@
 				20CD8B5418AC284700244B23 /* Event */,
 				20CD8B1F18AC283000244B23 /* iRMCampaign.h */,
 				20CD8B2018AC283000244B23 /* iRMCampaign.m */,
+				207D20AD1B3629BB004C294B /* iRMMap.h */,
+				207D20AE1B3629BB004C294B /* iRMMap.m */,
+				207D20B01B362B7C004C294B /* iRMMapLabel.h */,
+				207D20B11B362B7C004C294B /* iRMMapLabel.m */,
 				20CD8B2718AC283000244B23 /* iRMHex.h */,
 				20CD8B2818AC283000244B23 /* iRMHex.m */,
 				20CD8B2F18AC283000244B23 /* iRMLocation.h */,
@@ -371,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CD8B5118AC283000244B23 /* iRMTerrain.m in Sources */,
+				207D20AF1B3629BB004C294B /* iRMMap.m in Sources */,
 				20CD8B4218AC283000244B23 /* iRMCampaign.m in Sources */,
 				205E149118A55F4500B81323 /* main.m in Sources */,
 				20CD8B4C18AC283000244B23 /* iRMMonster.m in Sources */,
@@ -378,6 +389,7 @@
 				20CD8B4518AC283000244B23 /* iRMHandout.m in Sources */,
 				20CD8B4618AC283000244B23 /* iRMHex.m in Sources */,
 				20A850C01930155900B8FF24 /* iRMSkillCategory.m in Sources */,
+				207D20B21B362B7C004C294B /* iRMMapLabel.m in Sources */,
 				20CD8B4318AC283000244B23 /* iRMCharacter.m in Sources */,
 				205E149E18A55F4500B81323 /* iRoleMaster.xcdatamodeld in Sources */,
 				20CD8B4A18AC283000244B23 /* iRMLocation.m in Sources */,

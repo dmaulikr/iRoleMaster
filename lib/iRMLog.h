@@ -13,6 +13,8 @@
  *
  * The location variable is ONLY for area spells, and should be linked to the area onf influence of the area spell. This is a tool for the GM to confirm that area spells have been cast, and specially important for debugging if area spells with delayed effects actually work. If area spells can be resolved as 'multiple targets' this is preferred, as the log will indicate each target in a much better way.
  *
+ * Object logs are mostly for broken or destructed special items
+ *
  */
 
 #import <Foundation/Foundation.h>
@@ -21,10 +23,12 @@
 
 @interface iRMLog : NSObject
 
+@property NSNumber *logLevel; // For filtering, log events can hold 5 different levels, so that the amount of SPAM created by logging can be regulated
 @property NSDate *logRealDate;
 @property NSDate *logGameDate; // Not necessary to invent the wheel if our calendar can utilize NSDate
 @property iRMCharacter *logCharacter;
 @property iRMLocation *logLocation;
+@property iRMObject *logObject;
 @property NSString *logDescription;
 
 - (id) broadcast;
