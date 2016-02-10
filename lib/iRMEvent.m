@@ -26,7 +26,7 @@
 
 - (void) setEventTitle:(NSString *)eventTitle {
     _eventTitle = [[NSString alloc] initWithString:eventTitle];
-    iRMLog *newLog = [[iRMLog alloc] init];
+    iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_EVENT_HANDOUT];
     newLog.logDescription = [[NSString alloc] initWithFormat:@"Event created with title: %@", eventTitle];
 }
 - (void) addPerson:(iRMLiving *)person

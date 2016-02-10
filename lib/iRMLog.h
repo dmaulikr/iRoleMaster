@@ -21,6 +21,33 @@
 #import "iRMCharacter.h"
 #import "iRMCalendar.h"
 
+enum {
+    LOG_DEBUG = 0,
+    LOG_GM_EDITS,
+    LOG_GM_NOTES,
+    LOG_GM_CREATE,
+    LOG_EVENT_HANDOUT,
+    LOG_JOURNAL,
+    LOG_TIMELINE,
+    LOG_ITEM_BREAK,
+    LOG_LIVING_CREATE,
+    LOG_LIVING_LEVEL,
+    LOG_LIVING_XP,
+    LOG_LIVING_COMBAT,
+    LOG_LIVING_SPELL,
+    LOG_LIVING_SKILL_SPECTACULAR_FAILURE,
+    LOG_LIVING_SKILL_ABSOLUTE_FAILURE,
+    LOG_LIVING_SKILL_FAILURE,
+    LOG_LIVING_SKILL_UNUSUAL_EVENT,
+    LOG_LIVING_SKILL_PARTIAL_SUCCESS,
+    LOG_LIVING_SKILL_NEAR_SUCCESS,
+    LOG_LIVING_SKILL_UNUSUAL_SUCCESS,
+    LOG_LIVING_SKILL_SUCCESS,
+    LOG_LIVING_SKILL_ABSOLUTE_SUCCESS,
+    LOG_LIVING_DEATH
+};
+
+
 @interface iRMLog : NSObject
 
 @property NSNumber *logLevel; // For filtering, log events can hold 5 different levels, so that the amount of SPAM created by logging can be regulated
@@ -30,6 +57,8 @@
 @property iRMLocation *logLocation;
 @property iRMObject *logObject;
 @property NSString *logDescription;
+
+- (id) initWithLevel:(int)logLevel;
 
 - (id) broadcast;
 

@@ -12,12 +12,25 @@
 #import <Foundation/Foundation.h>
 #import "iRMSkillCategory.h"
 
+enum {
+    SKILL_RESULT_SPECTACULAR_FAILURE = 0,
+    SKILL_RESULT_ABSOLUTE_FAILURE,
+    SKILL_RESULT_FAILURE,
+    SKILL_RESULT_UNUSUAL_EVENT,
+    SKILL_RESULT_PARTIAL_SUCCESS,
+    SKILL_RESULT_NEAR_SUCCESS,
+    SKILL_RESULT_UNUSUAL_SUCCESS,
+    SKILL_RESULT_SUCCESS,
+    SKILL_RESULT_ABSOLUTE_SUCCESS
+};
+
 @interface iRMSkill : NSObject
 
 @property NSString *skillName;
 @property NSString *skillDescription;
 @property NSArray *skillStats; // Optional rule, up to 3 stats
 //@property iRMSkillCategory *skillCategory;
+@property NSString *skillCategory;
 @property NSString *skillNote;
 @property BOOL *skillSpecialible;
 @property NSString *skillSpecialty;

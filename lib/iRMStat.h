@@ -70,4 +70,7 @@ enum {
 
 - (NSNumber *)getAssignmentCost;
 
+- (NSString *)getStatString:(int)stat;
+- (NSString *)getStatShortString:(int)stat;
+
 @end

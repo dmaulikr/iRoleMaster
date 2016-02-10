@@ -341,4 +341,71 @@
     return _statTemp;
 }
 
+/**
+ * @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  Getting the stat localized name, used to populate in character sheet, skill lists, etc.
+ *
+ *  @param stat The stat enum
+ *
+ *  @return The stat text localized string
+ */
+- (NSString *)getStatString:(int)stat
+{
+    switch (stat) {
+        case STAT_AGILITY:
+            return NSLocalizedString(@"Agility Stat", @"Agility String");
+        case STAT_CONSTITUTION:
+            return NSLocalizedString(@"Constitution Stat", @"Constitution String");
+        case STAT_EMPATHY:
+            return NSLocalizedString(@"Empathy Stat", @"Empaty String");
+        case STAT_INTUITION:
+            return NSLocalizedString(@"Intuition Stat", @"Intuition String");
+        case STAT_MEMORY:
+            return NSLocalizedString(@"Memory Stat", @"Memory String");
+        case STAT_PRESENCE:
+            return NSLocalizedString(@"Presence Stat", @"Presence String");
+        case STAT_QUICKNESS:
+            return NSLocalizedString(@"Quickness Stat", @"Quickness String");
+        case STAT_REASONING:
+            return NSLocalizedString(@"Reasoning Stat", @"Reasoning String");
+        case STAT_SELFDISCIPLINE:
+            return NSLocalizedString(@"Self Discipline Stat", @"Self Discipline String");
+        case STAT_STRENGTH:
+            return NSLocalizedString(@"Strength Stat", @"Strength String");
+        default:
+            return NSLocalizedString(@"Invalid Stat", @"Invalid Stat String");
+    }
+}
+
+- (NSString *)getStatShortString:(int)stat
+{
+    switch (stat) {
+        case STAT_AGILITY:
+            return NSLocalizedString(@"Agility Short Stat", @"Agility Short String");
+        case STAT_CONSTITUTION:
+            return NSLocalizedString(@"Constitution Short Stat", @"Constitution Short String");
+        case STAT_EMPATHY:
+            return NSLocalizedString(@"Empathy Short Stat", @"Empaty Short String");
+        case STAT_INTUITION:
+            return NSLocalizedString(@"Intuition Short Stat", @"Intuition Short String");
+        case STAT_MEMORY:
+            return NSLocalizedString(@"Memory Short Stat", @"Memory Short String");
+        case STAT_PRESENCE:
+            return NSLocalizedString(@"Presence Short Stat", @"Presence Short String");
+        case STAT_QUICKNESS:
+            return NSLocalizedString(@"Quickness Short Stat", @"Quickness Short String");
+        case STAT_REASONING:
+            return NSLocalizedString(@"Reasoning Short Stat", @"Reasoning Short String");
+        case STAT_SELFDISCIPLINE:
+            return NSLocalizedString(@"Self Discipline Short Stat", @"Self Discipline Short String");
+        case STAT_STRENGTH:
+            return NSLocalizedString(@"Strength Short Stat", @"Strength Short String");
+        default:
+            return NSLocalizedString(@"Invalid Short Stat", @"Invalid Stat Short String");
+    }
+}
+
+
+
 @end

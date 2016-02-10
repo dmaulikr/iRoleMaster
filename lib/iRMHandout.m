@@ -26,7 +26,7 @@
 {
     if (_handoutTitle) {
         NSLog(@"Trying to set new title to old Handout!");
-        iRMLog *newLog = [[iRMLog alloc] init];
+        iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_EVENT_HANDOUT];
         newLog.logDescription = [[NSString alloc] initWithFormat:@"Handout with title \"%@\" changed to \"%@\"", _handoutTitle, title];
     } else {
         iRMLog *newLog = [[iRMLog alloc] init];

@@ -53,7 +53,7 @@
     /* If not a character, break here */
     return;
     
-    iRMLog *newLog;
+    iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_LIVING_COMBAT];
     newLog.logCharacter = NULL; // put character object here
     newLog.logDescription = [[NSString alloc] initWithFormat:@"%@ stunned for %d rounds!", newLog.logCharacter.characterName, [rounds intValue]];
     if (_livingStun > [_livingStats[STAT_CONSTITUTION] getTotalBonus]) {
@@ -76,7 +76,7 @@
     /*
      * Here I need a code to eliminate the living and convert it to a dead corpse. This function will need a series of checks to verify that the death is valid. It will also start any clocks regarding soul departure, resurection, etc.
      */
-    iRMLog *newLog;
+    iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_LIVING_DEATH];
     newLog.logCharacter = NULL; // put character object here
     newLog.logDescription = [[NSString alloc] initWithFormat:@"%@ is dead!", newLog.logCharacter.characterName];
 }

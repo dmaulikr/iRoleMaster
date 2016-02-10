@@ -22,7 +22,7 @@
     if (self) {
         _characterJournal = [[iRMJournal alloc] init];
         [_characterJournal setJournalOwner:[self copy]];
-        iRMLog *newLog = [[iRMLog alloc] init];
+        iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_CHARACTER_CREATE];
         newLog.logCharacter = [self copy];
         newLog.logDescription = @"New Character created";
     }
@@ -53,7 +53,7 @@
         _characterDing = @YES;
         // Create log text
         NSLog(@"DING: %@(%d) level ready to advance level to %d.", _characterName, currentLevel, experienceLevel);
-        iRMLog *newLog = [[iRMLog alloc] init];
+        iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_LIVING_LEVEL];
         newLog.logCharacter = [self copy];
         newLog.logDescription = [[NSString alloc] initWithFormat:@"DING: %@(%d) ready to advance level to %d.", _characterName, currentLevel, experienceLevel];
         return YES;

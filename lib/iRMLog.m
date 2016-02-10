@@ -20,11 +20,38 @@
     if (self) {
         _logRealDate = [NSDate date];
         //        _logGameDate = [NSDate getGameDate]; // Get the 'now' time in the game
-        _logLevel = [[NSNumber alloc] initWithInt:3];
+        _logLevel = [[NSNumber alloc] initWithInt:LOG_DEBUG]; // define default log level
+    }
+    return self;
+}
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>, 16-02-10
+ *
+ *  Initiates a log entry with a specific log Level
+ *
+ *  @param logLevel Log Level of entry
+ *
+ *  @return object ID
+ */
+- (id) initWithLevel:(int)logLevel
+{
+    self = [super init];
+    
+    if (self) {
+        _logRealDate = [NSDate date];
+        //        _logGameDate = [NSDate getGameDate]; // Get the 'now' time in the game
+        _logLevel = [[NSNumber alloc] initWithInt:logLevel];
     }
     return self;
 }
 
+/**
+ * @author Aun Johnsen <skippern@gimnechiske.org>
+ *
+ *  The purpose of this function is to broadcast log entries to the notification centre
+ *
+ *  @return self (log entry)
+ */
 - (id) broadcast
 {
     /*
