@@ -25,7 +25,7 @@
     return self;
 }
 /**
- *  @author Aun Johnsen <skippern@gimnechiske.org>, 16-02-10
+ *  @author Aun Johnsen <skippern@gimnechiske.org>, 2016-02-10
  *
  *  Initiates a log entry with a specific log Level
  *

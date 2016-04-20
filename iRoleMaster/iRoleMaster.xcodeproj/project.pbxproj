@@ -48,6 +48,7 @@
 		20CD8B5818AD38D300244B23 /* iRMArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD8B5718AD38D300244B23 /* iRMArmor.m */; };
 		20CD8B5C18AD55FB00244B23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CD8B5B18AD55FB00244B23 /* Images.xcassets */; };
 		20CDE94619947E9700580B66 /* heads-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 20CDE94519947E9700580B66 /* heads-1.png */; };
+		20EDEDDC1CB168E3009515E3 /* iRMWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EDEDDB1CB168E3009515E3 /* iRMWeapon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +123,8 @@
 		20CD8B5718AD38D300244B23 /* iRMArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMArmor.m; sourceTree = "<group>"; };
 		20CD8B5B18AD55FB00244B23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20CDE94519947E9700580B66 /* heads-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heads-1.png"; path = "Images.xcassets/heads.imageset/heads-1.png"; sourceTree = "<group>"; };
+		20EDEDDA1CB168E3009515E3 /* iRMWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRMWeapon.h; sourceTree = "<group>"; };
+		20EDEDDB1CB168E3009515E3 /* iRMWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRMWeapon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +292,8 @@
 		20CD8B5518AC284F00244B23 /* Object */ = {
 			isa = PBXGroup;
 			children = (
+				20EDEDDA1CB168E3009515E3 /* iRMWeapon.h */,
+				20EDEDDB1CB168E3009515E3 /* iRMWeapon.m */,
 				20CD8B5618AD38D300244B23 /* iRMArmor.h */,
 				20CD8B5718AD38D300244B23 /* iRMArmor.m */,
 				20CD8B3718AC283000244B23 /* iRMObject.h */,
@@ -386,6 +391,7 @@
 				205E149118A55F4500B81323 /* main.m in Sources */,
 				20CD8B4C18AC283000244B23 /* iRMMonster.m in Sources */,
 				20CD8B5218AC283000244B23 /* iRMTimeline.m in Sources */,
+				20EDEDDC1CB168E3009515E3 /* iRMWeapon.m in Sources */,
 				20CD8B4518AC283000244B23 /* iRMHandout.m in Sources */,
 				20CD8B4618AC283000244B23 /* iRMHex.m in Sources */,
 				20A850C01930155900B8FF24 /* iRMSkillCategory.m in Sources */,

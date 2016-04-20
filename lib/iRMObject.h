@@ -17,5 +17,6 @@
 @property NSString *objectDescription;
 @property NSNumber *objectWeight;
 @property NSNumber *objectValue;
+@property NSNumber *objectVolume;
 
 @end

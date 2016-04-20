@@ -46,7 +46,13 @@
     if (_livingStun > 0) return YES;
     return NO;
 }
-
+/**
+ *  @author Aun Johnsen <skippern@gimnechiske.org>, 2016-04-03
+ *
+ *  Adds stun to living creature
+ *
+ *  @param rounds number of rounds of stun
+ */
 - (void) addStun:(NSNumber *)rounds
 {
     _livingStun = [[NSNumber alloc] initWithInt:[rounds intValue]];
