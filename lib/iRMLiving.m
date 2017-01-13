@@ -57,7 +57,9 @@
 {
     _livingStun = [[NSNumber alloc] initWithInt:[rounds intValue]];
     /* If not a character, break here */
-    return;
+    if (false) {
+        return;
+    }
     
     iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_LIVING_COMBAT];
     newLog.logCharacter = NULL; // put character object here
