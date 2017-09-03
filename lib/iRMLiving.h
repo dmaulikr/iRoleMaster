@@ -15,7 +15,8 @@
 enum {
     GENDER_NEUTER = 0,
     GENDER_MALE,
-    GENDER_FEMALE
+    GENDER_FEMALE,
+    GENDER_HERMAFRODITE
     };
 
 @class iRMStat;
@@ -47,6 +48,8 @@ enum {
 @property NSNumber *livingCorruption;
 @property NSNumber *livingTaint;
 
+@property BOOL *livingIsPlayer;
+
 /*
  * Declaring initializers
  */
@@ -54,6 +57,7 @@ enum {
 
 - (NSString *) getGenderString;
 - (BOOL) isStunned;
+- (BOOL) isPlayerCharacter;
 - (void) addStun:(NSNumber *)rounds;
 - (void) removeStun:(NSNumber *)rounds;
 - (void) doDie;

@@ -43,6 +43,7 @@
 @property NSMutableArray *characterSpouse; // allow for poligami
 @property NSMutableArray *characterChildren;
 @property NSMutableString *characterOther;
+@property NSMutableString *characterGMNote;
 
 @property NSNumber *characterExperience; // accumulated experience points
 

@@ -15,6 +15,9 @@
 @interface iRMNPC : iRMLiving
 
 @property NSString *npcName;
+@property NSString *npcProfession;
+
+@property NSMutableString *npcGMNote;
 
 - (id) init;
 

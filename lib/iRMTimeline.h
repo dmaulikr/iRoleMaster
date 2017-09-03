@@ -18,10 +18,12 @@
 
 #import <Foundation/Foundation.h>
 #import "iRMEvent.h"
+#import "iRMCalendar.h"
 
 @interface iRMTimeline : NSObject
 
 @property NSMutableSet *timelineEvent;
+@property iRMCalendar *timelineCalendar;
 
 - (void) addEvent:(iRMEvent *)event;
 

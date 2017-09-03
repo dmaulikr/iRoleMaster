@@ -19,6 +19,7 @@
     
     if (self) {
         const iRMStat __unsafe_unretained *rawStats[10] = { [[iRMStat alloc] initWithID:@0], [[iRMStat alloc] initWithID:@1], [[iRMStat alloc] initWithID:@2], [[iRMStat alloc] initWithID:@3], [[iRMStat alloc] initWithID:@4], [[iRMStat alloc] initWithID:@5], [[iRMStat alloc] initWithID:@6], [[iRMStat alloc] initWithID:@7], [[iRMStat alloc] initWithID:@8], [[iRMStat alloc] initWithID:@9] };
+        _livingIsPlayer = NO;
         _livingStats = [NSArray arrayWithObjects:(rawStats) count:10];
     }
     return self;
@@ -29,13 +30,12 @@
     switch ([_livingGender intValue]) {
         case GENDER_NEUTER:
             return NSLocalizedString(@"Neuter", @"Gender: Neuter");
-            break;
         case GENDER_MALE:
             return NSLocalizedString(@"Male", @"Gender: Male");
-            break;
         case GENDER_FEMALE:
             return NSLocalizedString(@"Female", @"Gender: Female");
-            break;
+        case GENDER_HERMAFRODITE:
+            return NSLocalizedString(@"Hermafrodite", @"Gender: Hermafrodite");
         default:
             return NSLocalizedString(@"Unknown", @"Gender: Unknown");
     }
@@ -55,9 +55,10 @@
  */
 - (void) addStun:(NSNumber *)rounds
 {
-    _livingStun = [[NSNumber alloc] initWithInt:[rounds intValue]];
+    int tmp = [_livingStun intValue] + [rounds intValue];
+    _livingStun = [[NSNumber alloc] initWithInt:tmp];
     /* If not a character, break here */
-    if (false) {
+    if (!self.isPlayerCharacter) {
         return;
     }
     
@@ -87,6 +88,10 @@
     iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_LIVING_DEATH];
     newLog.logCharacter = NULL; // put character object here
     newLog.logDescription = [[NSString alloc] initWithFormat:@"%@ is dead!", newLog.logCharacter.characterName];
+}
+- (BOOL) isPlayerCharacter
+{
+    return _livingIsPlayer;
 }
 
 @end

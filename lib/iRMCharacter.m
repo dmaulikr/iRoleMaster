@@ -22,6 +22,7 @@
     if (self) {
         _characterJournal = [[iRMJournal alloc] init];
         [_characterJournal setJournalOwner:[self copy]];
+        super.livingIsPlayer = YES;
         iRMLog *newLog = [[iRMLog alloc] initWithLevel:LOG_CHARACTER_CREATE];
         newLog.logCharacter = [self copy];
         newLog.logDescription = @"New Character created";
