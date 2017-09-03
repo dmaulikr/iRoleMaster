@@ -1,3 +1,4 @@
+ [![Build Status](https://travis-ci.org/Skippern/iRoleMaster.svg?branch=master)](https://travis-ci.org/Skippern/iRoleMaster)
 iRoleMaster
 ====
 
